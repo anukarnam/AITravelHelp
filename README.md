@@ -1,15 +1,15 @@
 ﻿## 🧳 AI Travel Agent with Memory
-This app implements an AI-powered travel assistant that remembers user preferences and past interactions. It utilizes OpenAI's GPT-4o for generating responses and Mem0 with Qdrant for maintaining conversation history.
+This agent implements an AI-powered travel assistant that remembers user preferences and past interactions. It utilizes OpenAI's GPT-4o for generating responses and Mem0 with Qdrant for maintaining conversation history.
 
 ### Features
 - Chat-based interface for interacting with an AI travel assistant
-- Persistent memory of user preferences and past conversations
-- Utilizes OpenAI's GPT-4o model for intelligent responses
 - Implements memory storage and retrieval using Mem0 and Qdrant
 - User-specific conversation history and memory viewing
+- Persistent memory of user preferences and past conversations
+- Utilizes OpenAI's GPT-4o model for intelligent responses
+
 
 ### How to get Started?
-
 1. Clone the GitHub repository
 ```bash
 git clone https://github.com/travelhelp.git
@@ -37,3 +37,4 @@ docker run -p 6333:6333 -p 6334:6334 \
 ```bash
 run travel_agent_memory.py
 ```
+
