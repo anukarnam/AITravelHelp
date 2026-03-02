@@ -12,8 +12,7 @@ This agent implements an AI-powered travel assistant that remembers user prefere
 ### How to get Started?
 1. Clone the GitHub repository
 ```bash
-git clone https://github.com/travelhelp.git
-cd awesome-llm-apps/llm_apps_with_memory_tutorials/ai_travel_agent_memory
+git clone https://github.com/anukarnam/AITravelHelp.git
 ```
 
 2. Install the required dependencies:
@@ -37,4 +36,5 @@ docker run -p 6333:6333 -p 6334:6334 \
 ```bash
 run travel_agent_memory.py
 ```
+
 
